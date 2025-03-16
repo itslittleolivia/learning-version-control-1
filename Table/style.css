@@ -1,0 +1,67 @@
+
+h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-size: 80px;
+}
+
+h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    padding-top: 0px;
+}
+
+h4 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-size: 20px;
+}
+
+body {
+    background-color: white;
+}
+
+
+table { 
+    border-collapse: collapse;
+    border: 2px solid rgb(188,143,143);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+thead, 
+tfoot {
+    background-color: rgb(188,143,143);
+    padding: 8px 10px;
+}
+
+th, 
+td {
+    border: 1px solid rgb(188,143,143);
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: white;
+}
+
+tfoot th {
+    font-weight: lighter;
+}
+
